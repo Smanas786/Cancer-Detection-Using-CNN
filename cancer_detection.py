@@ -14,9 +14,6 @@ import numpy as np
 import os
 from glob import glob
 
-
-os.chdir(r"C:\abdala_Phd_windsor_uni\COMP8590-1-R-2019F Machine Learning &Optimization\My ML Project 2019_2020\breast_cancer_project\breast cancer2") 
-
 os.listdir('./IDC_regular_ps50_idx5')[:10]
 
 base_dir = os.path.join('./IDC_regular_ps50_idx5')
@@ -408,7 +405,6 @@ plt.show()
 #plt.savefig(ROC_PLOT_FILE, bbox_inches='tight')
 plt.close()
 """
-https://towardsdatascience.com/predicting-invasive-ductal-carcinoma-using-convolutional-neural-network-cnn-in-keras-debb429de9a6
 """
 tg_names=['ID-','ID+']
 report = metrics.classification_report(Y_true, Y_pred_classes, target_names=tg_names)
