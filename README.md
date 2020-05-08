@@ -5,6 +5,7 @@ During a standard mammographic screening examination, an X-Ray image of the pati
 <p align="center">
   <img src="Describe_Problem.PNG" width="400">
 </p>
+
 # Setup
 	Hidden layer: Rectified Linear Unit (ReLU)	
 	Output Layer: Sigmoid	
