@@ -35,6 +35,6 @@ because the probability for the negative class can be derived from it i.e.
 <p align="center">
   <img src="https://microsoft.codecogs.com/svg.latex?L(f(x;w),y)%20=%20%20-%20%20%20\frac{1}%20{m}%20%20\%20%20\sum_i^m%20%20y%20%20log%20p(%20x%20;w)%20%20+%20%20(1%20-%20%20y%20)log(1%20-%20p(%20x^{i}%20%20;w))" width="400">
 </p>
-4. Use Backpropogation to calculate the gradients of the error with respect to all weights in the network and use stochastic gradient descent to update all filter values/weights and parameter value to minimize the output error
 
+4. Use Backpropogation to calculate the gradients of the error with respect to all weights in the network and use stochastic gradient descent to update all filter values/weights and parameter value to minimize the output error 
 5. Repeat steps 2-4 with all images in the training set
