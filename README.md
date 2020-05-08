@@ -6,6 +6,16 @@ During a standard mammographic screening examination, an X-Ray image of the pati
   <img src="Describe_Problem.PNG" width="400">
 </p>
 
+# Loss-Function
+In our problem, the probability between 0 and 1 or benign and malignant is given by the loss function Binary Cross-entropy, because each of the values (0,1) belong to one of two complementary classes while making sure the dataset is i.i.d (independent, identical, and distributed). Furthermore, as classification function is given by C = {0 1} where we want to predict only
+<p align="center">
+ <img src="https://microsoft.codecogs.com/svg.latex?P(y=1|x;w)" width="100">
+</p>
+because the probability for the negative class can be derived from it i.e.
+<p align="center">
+  <img src="https://microsoft.codecogs.com/svg.latex?P(y=1|x;w)%20=%20p(x;w)%20\\%20%20P(y=0|x;w)%20=%201-p(x;w)" width="200">
+</p>
+
 # Setup
 	Hidden layer: Rectified Linear Unit (ReLU)	
 	Output Layer: Sigmoid	
