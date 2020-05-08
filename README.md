@@ -2,6 +2,9 @@
 Breast cancer starts when cells in the breast begin to grow out of control. These cells usually form a tumor that can often be seen on an x-ray or felt as a lump. The tumor is malignant (cancer) if the cells can grow into (invade) surrounding tissues or spread (metastasize) to distant areas of the body. The challenge of this project was to build an algorithm by using a neural network to automatically identify whether a patient is suffering from breast cancer by looking at biopsy images. The algorithm must be accurate because the lives of people are at stake
 # Importance
 During a standard mammographic screening examination, an X-Ray image of the patient is captured from the 2 angles of each breast. These images are then inspected by specialists’ physicians for malignancy. Research indicates that most experienced physicians can diagnose cancer with at most only 79 percent accuracy and this data comes from most experienced physician who won’t be readily available at all local hospital, sometimes hard to find in states or maybe in-country and if that happens then with non-experienced physician this number may go far below 79 percent. This may lead to misinterpretation and might be to cause of death. Also, a human inspection of the mammographic report is length, tiring, costly and most importantly prone to error
+<p align="center">
+  <img src="Describe_Problem.PNG" width="400">
+</p>
 # Setup
 	Hidden layer: Rectified Linear Unit (ReLU)	
 	Output Layer: Sigmoid	
